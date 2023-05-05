@@ -1,0 +1,19 @@
+*{
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box;
+ }
+.texto{
+   border: 1px solid red;
+   margin-left: 50px ;
+}
+
+.iheader{
+   width:  100% !important;
+   border: 1px solid red;
+   display: flex;
+   height: 10px;
+/*    background-color: black; */
+   justify-content: space-between;
+  
+}
