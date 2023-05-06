@@ -4,6 +4,12 @@
    box-sizing: border-box;
  }
  /* COMEÇO HEADER */
+ @media screen and (min-width: 500px){
+/* MAX WIDTH = TELA MENORES QUE ALGUMA RESOLUCAO */
+    body{
+        background-color:blue;
+    }
+ }
  header{
      padding: 0 20px;
      color:bisque;
