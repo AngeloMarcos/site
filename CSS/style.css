@@ -1,158 +1,90 @@
 *{
-   padding: 0%;
-   margin: 0%;
-   box-sizing: border-box;
- }
- /* COMEÇO HEADER */
- @media screen and (min-width: 600px){
-/* MAX WIDTH = TELA MENORES QUE ALGUMA RESOLUCAO */
-    body{
-        background-color:blue;
-    }
- }
- header{
-     padding: 0 20px;
-     color:bisque;
-     width: 100%;
-     background-color: rgb(0, 0, 0);
-     height: 120px;
-     display: flex;
-     justify-content: space-around;
-     
- }
- 
- .logo-imagem{
-     width: 50px;
-     height: 50px;
-     background-color: bisque;
-     border-radius: 25px;
- }
- .logo-imagem:hover{
-     background-color: rgb(223, 220, 217);
-     color: black;
-     border-radius: 100px;
- }
- .logo-texto:hover{
-     padding: 10px 2px;
-     background-color: rgb(223, 220, 217);
-     color: black;
-     border-radius: 10px;
- }
- .container-logo{
-
-     margin-right: 12%;
-     display: flex;
-     align-items: center;
- }
- .logo-texto{
-     margin-left: 12%;
- }
- .logo-texto a{
-     color: bisque;
-     text-decoration: none;
-     text-align: center;
- }
- .menu{
-     margin-right: 15%;
- }
- .menu li{
-     display: inline-block;
-     margin-top: 8%;
-     
- }
- .menu li a {
-     font-size: 24px;
-     text-decoration: none;
-     text-transform: uppercase;
-     color: bisque;
-     padding: 10px 25px;
-     
- }
- .menu li a:hover{
-     background-color: bisque;
-     color: black;
-     border-radius: 10px;
-     font-weight: bold;
- }
-/* FIM DO HEADER */
- /* RODAPÉ */
- .rodape{
-    background-color: rgb(0, 0, 0);
-    margin-top: 20px;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1{
+    display: inline-flex;
+    font-size: 10px  bold;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+header , footer{
+    margin: 0%;
+    background-color: #008080;
+    justify-content: space-between;
+    display: inline-flex;
+    padding: 5px;
+    width: 100%;
     height: 120px;
-    display: flex;
 }
-.footer{
-    display: flex; 
+.container-logo{
+    margin: 5px 10px 0px 10px;
+    padding: 10px 40px 10px 10px;
+    border-radius: 3px;
+    display: inline-flex;
 }
-footer a{
-   text-decoration: none;
-   color: bisque;
+.container-logo:hover{
+    background-color: #00FFFF;
+    border-radius: 10px;
 }
-nav{
-    margin-left: 10%;
-}
-.rodape nav{
-    display: flex;
-}
-.github{
-    margin-top: 15%;
-    width: 50px;
-    margin-left: 350%;
-    margin-right: 90%;
-}
-.linkedin{
-    margin-top: 30%;
-    width: 50px;    
-    margin-right: 90%;
-}
-.whatsapp{
-    margin-top: 15%;
-    width: 50px;
-    margin-left: 80%;
-}
-/* FIM RODAPE */
-/* COMEÇO CORPO ABA CURRICULO*/
-.corpo_curriculo{
-   background-color: aqua; 
-}
-/* FIM DO CORPO ABA CURRICULO*/
+nav li{
+    display: inline;
 
-/* inicio formatacao pdf */
-.apresentacao_curriculo{
-    height: 700px;
-    width: 100%;
 }
-.curriculo_pdf{
-        width: 100%;
-        height: 100%;
+.menu{
+    margin: 20px 250px 50px 0px;
+    padding: 20px 250px 20px 20px;
 }
-/* FIM FORMATACAO PDF */
-/* INICIO FORMATACAO CORPO DA PAGINA */
-.container_apresentacao{
-    display: flex;
-    align-items: center;
+.menu li :hover{
+    background-color: #00FFFF;
+    border-radius: 10px;
 }
-.corpo{
-    width: 100%;
-    height: 100%;
+.menu a{
+    text-decoration: none;
+    list-style: none;
+    margin: 50px;
+    color: rgb(15, 14, 14);
+    font-size: 25px  ;
+    padding: 8px 10px;
 }
-/*INICIO TEXTO_APRESENTACA */
 
 
- /*FIM TEXTO_APRESENTACA */
- /* INICIO FORMATACAO IMAGEM1 */
- .imagem1{
-    margin: 5% 15%;
-    width: 50px;
-    display: inline-block;
- }
- /* INICIO FORMATACAO IMAGEM1 */
-.texto_apresentacao{
-    width:300px;
-    display: inline-block;
-   margin: 5% 15%;
+/* corpo */
+
+.apresentacao{
+    width: 80%;
+    margin: 100px 300px;
+    padding: 50px;
+    display: inline-flex;
+}
+.imagem1{
+    width: 400px;
+    margin: 10px;
 }
 
-/* FIM FORMATACAO CORPO DA PAGINA */
+.texto_apresentacao p{
+    width: 300px;
+}
 
+/* FOOTER */
+
+.redes  {
+    width: 40%;
+    margin-left: 35%;
+    margin-top: 15px;
+}
+
+.redes li a{
+    text-decoration: none;
+    margin-left: 60px;
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+    color: rgb(15, 14, 14);
+
+}
+.redes nav{
+    display: inline-flex;
+}
