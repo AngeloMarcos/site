@@ -4,7 +4,7 @@
    box-sizing: border-box;
  }
  /* COMEÇO HEADER */
- @media screen and (min-width: 500px){
+ @media screen and (min-width: 600px){
 /* MAX WIDTH = TELA MENORES QUE ALGUMA RESOLUCAO */
     body{
         background-color:blue;
