@@ -34,7 +34,7 @@ nav li{
 
 }
 .menu{
-    margin: 20px 250px 50px 0px;
+    margin: 1% 4%;
     padding: 20px 250px 20px 20px;
 }
 .menu li :hover{
@@ -64,7 +64,7 @@ nav li{
     margin: 10px;
 }
 
-.texto_apresentacao p{
+.texto_apresentacao {
     width: 300px;
 }
 
@@ -85,6 +85,111 @@ nav li{
     color: rgb(15, 14, 14);
 
 }
+.redes li a:hover{
+    background-color: #00FFFF;
+    border-radius: 50px;
+}
 .redes nav{
     display: inline-flex;
+}
+
+/* PROJETOS */
+
+.projeto1{
+    width: 50%;
+    margin: 40px 40px;
+
+    font: 25px bold;
+    color: #008080 ;
+}
+
+/* MEDIA QUERY */
+
+@media  (max-width: 500px){
+  
+    #toggle{
+        position:relative;
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s;
+    }
+    
+    #toggle.active{
+        background-color: #f70707;
+    }
+    
+    #toggle::before{
+        content:'';
+        position: absolute;
+        width: 28px;
+        height: 2px;
+        background-color: #ffffff;
+        transition: 0.2s;
+        transform: translateY(-10px);
+        box-shadow: 0 10px 0 #ffffff;
+    }
+    #toggle.active::before{
+        
+        transform: translateY(0px) rotate(45deg);
+        box-shadow: 0 0px 0 #ffffff;
+    }
+    #toggle.active::after{
+        
+        transform: translateY(0px) rotate(-45deg);
+    }
+    #toggle::after{
+        content:'';
+        position: absolute;
+        width: 28px;
+        height: 2px;
+        background-color: #ffffff;
+        transition: 0.2s;
+        transform: translateY(10px);
+        
+    }
+
+
+    
+header , footer{
+    margin: 0%;
+    background-color: #008080;
+    justify-content: space-between;
+    display: inline-flex;
+    padding: 5px;
+    width: 550px;
+    height: 100px;
+}
+.container-logo{
+    margin: 5px 10px 0px 10px;
+    padding: 5px 20px 5px 5px;
+    border-radius: 3px;
+    display: inline-flex;
+}
+.container-logo:hover{
+    background-color: #00FFFF;
+    border-radius: 10px;
+}
+.menu{
+    display: none;
+}
+
+.apresentacao{
+    width: 400px;
+    margin: 80px 80px;
+    padding: 50px;
+    display: block;
+}
+.imagem1{
+    width: 200px;
+    margin: 10px;
+}
+
+.texto_apresentacao {
+    width: 250px;
+}
 }

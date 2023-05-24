@@ -10,7 +10,6 @@
   <meta name="viewport" content="width=deivce-width, initial-scale=1.0"/>
 </head>
 
-<body> 
   <header>        
     <div class="container-logo">
      
@@ -22,11 +21,20 @@
         <div class="menu">
             <nav>
               <ul>               
-                <li><a href="../site/index.html">Pagina Inicial</a></li>
-                <li><a href="../site/doc/Curriculo Angelo Marcos.pdf">Curriculo</a></li>
-                <li><a href="C:\Users\angel\Desktop\github\site\corpo\projetos.html#">Projetos</a></li>
+                <li><a href="../site/index.html"><b>Pagina Inicial</b></a></li>
+                <li><a href="../site/doc/Curriculo Angelo Marcos.pdf"><b>Curriculo</b></a></li>
+                <li><a href="C:\Users\angel\Desktop\github\site\corpo\projetos.html#"><b>Projetos</b></a></li>
             </ul>
             </nav>
+        </div>
+
+        <div id="toggle">
+          <script>
+            const toggle = document.getElementById('toggle');
+            toggle.onclick = function(){
+              toggle.classList.toggle('active');
+            }
+          </script>
         </div>
   </header>
   <body>
@@ -94,13 +102,7 @@
       
     
  
-  <!-- script para pop up -->
-  <!--   <script>
-        $('document').ready(function () {
-          alert('Jquery is included');
-        })
-      </script> -->
+ 
 
-</body>
 
 </html>
